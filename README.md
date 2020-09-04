@@ -1,0 +1,2 @@
+# DesignPattern
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dbb31f3241244090be69be8ae3dc80d0)](https://app.codacy.com/manual/ParkHyeonJae/DesignPattern?utm_source=github.com&utm_medium=referral&utm_content=ParkHyeonJae/DesignPattern&utm_campaign=Badge_Grade_Dashboard)
