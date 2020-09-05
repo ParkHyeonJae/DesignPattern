@@ -26,72 +26,120 @@ public:
 };
 class RTX3070 : public RTX
 {
+
 	int Price() sealed override
 	{
+
 		return m_price = 499;
+
 	}
+
 	int CUDACore() sealed override
 	{
+
 		return m_cudaCore = 5888;
+
 	}
+
 	int RTCore() sealed override
 	{
+
 		return m_rtCore = 46;
+
 	}
+
 	int TensorCore() sealed override
 	{
+
 		return m_tensorCore = 184;
+
 	}
+
 	int V_RAM() sealed override
 	{
+
 		return m_v_ram = 8;
+
 	}
+
 };
 class RTX3080 : public RTX
 {
+
 	int Price() sealed override
 	{
+
 		return m_price = 699;
+
 	}
+
 	int CUDACore() sealed override
 	{
+
 		return m_cudaCore = 8704;
+
 	}
+
 	int RTCore() sealed override
 	{
+
 		return m_rtCore = 68;
+
 	}
+
 	int TensorCore() sealed override
 	{
+
 		return m_tensorCore = 272;
+
 	}
+
 	int V_RAM() sealed override
 	{
+
 		return m_v_ram = 10;
+
 	}
+
 };
 class RTX3090 : public RTX
 {
+
 	int Price() sealed override
 	{
+
 		return m_price = 1499;
+
 	}
+
 	int CUDACore() sealed override
 	{
+
 		return m_cudaCore = 10496;
+
 	}
+
 	int RTCore() sealed override
 	{
+
 		return m_rtCore = 82;
+
 	}
+
 	int TensorCore() sealed override
 	{
+
 		return m_tensorCore = 328;
+
 	}
+
 	int V_RAM() sealed override
 	{
+
 		return m_v_ram = 24;
+
 	}
+
 };
 
 class RTXFactory
@@ -100,18 +148,19 @@ public:
 	template<typename T>
 	static RTX* getInstance()
 	{
+
 		RTX* t = new T();
+
 		if (t != nullptr)
 			return t;
-		return nullptr;
-	}
 
+		return nullptr;
+
+	}
 };
 
-int main(int argc, char* argv)
+int main(int argc, char* argv[])
 {
-	
-
 	RTX* rtx = RTXFactory::getInstance<RTX3070>();
 	rtx->Performance();
 
