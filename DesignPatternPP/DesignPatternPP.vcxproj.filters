@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\TemplateMethod">
       <UniqueIdentifier>{e5225187-25aa-430b-b236-d763e17a5d2d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\FactoryMerhod">
+      <UniqueIdentifier>{42b046de-673b-4a90-ba7c-d261d2a6ccda}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -28,6 +31,9 @@
     </ClCompile>
     <ClCompile Include="Example01.cpp">
       <Filter>소스 파일\TemplateMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod.cpp">
+      <Filter>소스 파일\FactoryMerhod</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
