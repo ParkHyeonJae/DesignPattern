@@ -111,23 +111,22 @@ public:
 int main(int argc, char* argv)
 {
 	
-	RTXFactory rtxFactory;
 
-	RTX* rtx = rtxFactory.getInstance<RTX3070>();
+	RTX* rtx = RTXFactory::getInstance<RTX3070>();
 	rtx->Performance();
 
 	delete rtx;
 
 	cout << endl;
 
-	rtx = rtxFactory.getInstance<RTX3090>();
+	rtx = RTXFactory::getInstance<RTX3080>();
 	rtx->Performance();
 
 	delete rtx;
 
 	cout << endl;
 
-	rtx = rtxFactory.getInstance<RTX3090>();
+	rtx = RTXFactory::getInstance<RTX3090>();
 	rtx->Performance();
 
 	delete rtx;
