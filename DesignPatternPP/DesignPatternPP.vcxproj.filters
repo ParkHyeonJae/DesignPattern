@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\FactoryMerhod">
       <UniqueIdentifier>{42b046de-673b-4a90-ba7c-d261d2a6ccda}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Singleton">
+      <UniqueIdentifier>{746211f0-8a71-4b08-813a-8a48d64a868f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AbstractFactory">
+      <UniqueIdentifier>{691e414d-ec51-4220-ab84-cf260d428976}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -34,6 +40,12 @@
     </ClCompile>
     <ClCompile Include="FactoryMethod.cpp">
       <Filter>소스 파일\FactoryMerhod</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>소스 파일\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory.cpp">
+      <Filter>소스 파일\AbstractFactory</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
