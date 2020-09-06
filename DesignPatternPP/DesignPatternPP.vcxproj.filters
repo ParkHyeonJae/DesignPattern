@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\AbstractFactory">
       <UniqueIdentifier>{691e414d-ec51-4220-ab84-cf260d428976}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Proxy">
+      <UniqueIdentifier>{ba98284c-0d74-47b5-95bf-2782df745862}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -52,6 +55,12 @@
     </ClCompile>
     <ClCompile Include="Example_AbstractPattern_02.cpp">
       <Filter>소스 파일\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>소스 파일\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_ProxyPattern_01.cpp">
+      <Filter>소스 파일\Proxy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
