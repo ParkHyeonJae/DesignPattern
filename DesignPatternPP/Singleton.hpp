@@ -1,5 +1,4 @@
 #pragma once
-#include "stdafx.h"
 
 template<typename T>
 class Singleton
@@ -10,57 +9,15 @@ protected:
 	Singleton(const Singleton& s) {}
 	static void destroy() { delete _instance; }
 public:
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
-	// ÀÌ¿Â°ג Â¯
 	static T* GetInstance()
 	{
 		if (_instance) {
-			_instance = new Singleton();
+			_instance = new T();
 			atexit(destroy);
 		}
 		return _instance;
 	}
 private:
-	static Singleton* _instance;
+	static T* _instance;
 };
+template<typename T> T* Singleton<T>::_instance = nullptr;

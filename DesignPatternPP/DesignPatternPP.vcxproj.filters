@@ -28,10 +28,16 @@
     <Filter Include="소스 파일\Proxy">
       <UniqueIdentifier>{ba98284c-0d74-47b5-95bf-2782df745862}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\FlyWeight">
+      <UniqueIdentifier>{1972f656-be55-43b1-9f01-c2d5edd2bcca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.hpp">
+      <Filter>소스 파일\Singleton</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +67,9 @@
     </ClCompile>
     <ClCompile Include="Example_ProxyPattern_01.cpp">
       <Filter>소스 파일\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Flyweight.cpp">
+      <Filter>소스 파일\FlyWeight</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
