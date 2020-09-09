@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\FlyWeight">
       <UniqueIdentifier>{1972f656-be55-43b1-9f01-c2d5edd2bcca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Adapter">
+      <UniqueIdentifier>{c0223ba2-66f8-4cd4-ba8a-43ab9c78d339}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -70,6 +73,12 @@
     </ClCompile>
     <ClCompile Include="Flyweight.cpp">
       <Filter>소스 파일\FlyWeight</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter.cpp">
+      <Filter>소스 파일\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Example_AdapterPattern_01.cpp">
+      <Filter>소스 파일\Adapter</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
