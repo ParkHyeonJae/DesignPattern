@@ -80,5 +80,8 @@
     <ClCompile Include="Example_AdapterPattern_01.cpp">
       <Filter>소스 파일\Adapter</Filter>
     </ClCompile>
+    <ClCompile Include="CompositePattern.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
