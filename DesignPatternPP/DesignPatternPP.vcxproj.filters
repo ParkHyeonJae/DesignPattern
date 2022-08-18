@@ -83,5 +83,8 @@
     <ClCompile Include="CompositePattern.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="StrategyPattern.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
