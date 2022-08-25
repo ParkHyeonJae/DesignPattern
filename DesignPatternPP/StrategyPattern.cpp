@@ -16,7 +16,7 @@ class Animal
 {
 public:
 	Animal() = default;
-	Animal(std::string name) : _name(name) {}
+	Animal(const std::string&& name) : _name(name) {}
 	virtual ~Animal() {}
 public:
 	virtual void speak() const = 0;
