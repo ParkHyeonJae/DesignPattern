@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\Adapter">
       <UniqueIdentifier>{c0223ba2-66f8-4cd4-ba8a-43ab9c78d339}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Visitor">
+      <UniqueIdentifier>{bfdeb55c-ea8b-4a11-abfb-fda42fbcebdd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -41,6 +44,15 @@
     </ClInclude>
     <ClInclude Include="Singleton.hpp">
       <Filter>소스 파일\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="VisitorCorePch.h">
+      <Filter>소스 파일\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="VisitorImpl.h">
+      <Filter>소스 파일\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectImpl.h">
+      <Filter>소스 파일\Visitor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +109,15 @@
     </ClCompile>
     <ClCompile Include="ObserverPattern.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="VisitorPattern.cpp">
+      <Filter>소스 파일\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="VisitorImpl.cpp">
+      <Filter>소스 파일\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectImpl.cpp">
+      <Filter>소스 파일\Visitor</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
